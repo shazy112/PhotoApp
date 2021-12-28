@@ -1,0 +1,19 @@
+
+
+This readme is based on what architecture and patterns the project is following.
+
+ARCHITECTURE:
+This project is following MVVM
+Reason:
+Separated all data driven code like API's, data Model references, and testable code in to ViewModel so evey data related logic remains in our ViewModel.
+We can easily test our logic from viewModel as i have also added an example of a dummy a test case.
+Easily scalable with independent business logic files if our app grows
+
+SOLID:
+Following Solid Principles.
+Every class has its own responsibility like APIManager calls api and return model after Parsing
+Photo Handler class only apply photo to any uiimageView with activity indicators handling inside it
+No Base class is edited based on any other requirement, instead protocols are used.
+
+
+
