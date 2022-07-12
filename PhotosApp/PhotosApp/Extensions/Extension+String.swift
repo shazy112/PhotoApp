@@ -13,3 +13,4 @@ extension String {
         return predicate.evaluate(with: self)
     }
 }
+///
